@@ -35,4 +35,5 @@ if __name__ == "__main__":
     # Entry point: the grader runs `python3 main.py` and reads
     # /output/entry.png (or $MAKEFUN_OUTPUT_DIR/entry.png).
     # The image is the entry; this program only places it.
+    # Deterministic: the same bytes out on every run.
     main()
