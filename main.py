@@ -14,7 +14,8 @@ import os
 import shutil
 
 # The image bundled with this entry, resolved against this file's own
-# directory so the copy works from any working directory.
+# directory so the copy works from any working directory. The file is
+# a JPEG (261,980 bytes, 1024x683): a smiling sun, rainbow, hills.
 SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "entry.png")
 
 
@@ -32,4 +33,5 @@ def main():
 if __name__ == "__main__":
     # Entry point: the grader runs `python3 main.py` and reads
     # /output/entry.png (or $MAKEFUN_OUTPUT_DIR/entry.png).
+    # The image is the entry; this program only places it.
     main()
