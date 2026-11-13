@@ -24,6 +24,7 @@ def main():
 
     The copy is byte-for-byte (shutil.copyfile), so the graded image
     is exactly the one in the repository -- no re-encoding, no change.
+    The output directory is created if it does not exist yet.
     """
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
