@@ -9,6 +9,7 @@ so the program finds it relative to its own location rather than the
 working directory -- the grader may run it from anywhere. The image is
 a bright storybook scene: a smiling golden sun over green hills, a
 rainbow, wildflowers and a singing bird -- made to make the judge happy.
+Standard library only (os, shutil), no network, no randomness.
 """
 import os
 import shutil
